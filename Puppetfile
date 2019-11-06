@@ -1,5 +1,21 @@
 forge 'https://forge.puppet.com'
 
+mod 'puppetlabs-ntp', '8.0.0'
+
+mod 'apache',
+  :git => 'https://github.com/allbetsareoff29/puppet-apache.git'
+#  :git => 'https://github.com/allbetsareoff29/puppet-apache'
+#  :branch =>
+#  :default_branch => master
+#  :ref =>
+#  :tag =>
+#  :commit =>
+#  :install_path =>
+
+
+
+
+
 # Modules from the Puppet Forge
 # Versions should be updated to be the latest at the time you start
 #mod 'puppetlabs/inifile', '3.0.0'
